@@ -17,7 +17,7 @@ function App() {
           }}/>
           
           <div class="flex flex-wrap">
-          <Employee name = "Garnet" role ="intern"></Employee>
+          <Employee name = "Garnet" role ="intern" img="para.jpeg"/>
           <Employee name = "Ruby" role={role}></Employee>
           <Employee name = "Red"></Employee>
           </div>
