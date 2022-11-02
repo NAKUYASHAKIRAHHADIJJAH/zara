@@ -1,4 +1,4 @@
-import './App.css';
+import './index.css';
 import Employee from "./components/Employee";
 import {useState} from 'react';
 
@@ -15,9 +15,12 @@ function App() {
             console.log(e.target.value);
             setRole(e.target.value);
           }}/>
+          
+          <div class="flex flex-wrap">
           <Employee name = "Garnet" role ="intern"></Employee>
           <Employee name = "Ruby" role={role}></Employee>
           <Employee name = "Red"></Employee>
+          </div>
           </>
        ): (
        <p>You cannot view employees</p>
